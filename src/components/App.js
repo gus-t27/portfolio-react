@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
-import '../style/App.css';
+import '../style/App.css'
+import Navigation from './Navigation'
+import Contact from './Contact'
+import Projects from './Projects'
+import About from './About'
 
 export default class App extends Component {
   constructor(props) {
@@ -10,7 +14,9 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-
+        <div>
+          <Navigation />
+        </div>
       </div>
     )
   }
