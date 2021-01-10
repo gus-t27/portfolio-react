@@ -9,7 +9,9 @@ export default class Navigation extends Component {
   render() {
     return (
       <div>
-
+        <div className="nav-items">
+          
+        </div>
       </div>
     )
   }
